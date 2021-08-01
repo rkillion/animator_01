@@ -22,6 +22,8 @@ const combinationsPhrase = `There are ${skinTones.length*hairColors.length*noseE
 
 document.getElementById("counterText").innerHTML = combinationsPhrase;
 
+console.log(hiddenVariable);
+
 changeSkinColor();
 changeHairColor();
 changeNose();
